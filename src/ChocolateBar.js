@@ -6,7 +6,7 @@ const ChocolateBar = () => {
   return (
     <div>
       <h2>Chocolate Time!!</h2>
-      <img src={chocolateBar} alt="picture of chocolate bar"/>
+      <img src={chocolateBar} alt="pieces of a chocolate bar"/>
       <Link to="/">Go Back</Link>
     </div>
   )
