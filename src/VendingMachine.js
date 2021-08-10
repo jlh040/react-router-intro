@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import ChocolateBar from './ChocolateBar';
 import Skittles from './Skittles';
+import Donut from './Donut';
 
 const VendingMachine = () => {
   return (
@@ -11,7 +12,7 @@ const VendingMachine = () => {
           <nav>
             <NavLink exact to="/chocolatebar">Chocolate Bar</NavLink>
             <NavLink exact to="/skittles">Skittles</NavLink>
-            <NavLink exact to="/snickers">Snickers</NavLink>
+            <NavLink exact to="/donut">Donut</NavLink>
           </nav>
         </Route>
         <Route exact path="/chocolatebar">
@@ -20,9 +21,9 @@ const VendingMachine = () => {
         <Route exact path="/skittles">
           <Skittles />
         </Route>
-        {/* <Route exact path="/snickers">
-          <Snickers />
-        </Route> */}
+        <Route exact path="/donut">
+          <Donut />
+        </Route>
       </BrowserRouter>
     </div>
   )
