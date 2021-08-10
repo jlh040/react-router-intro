@@ -1,3 +1,4 @@
-.App {
+html, body, #root, .App, .VendingMachine, .SnackItems {
   text-align: center;
+  height: 100%;
 }
