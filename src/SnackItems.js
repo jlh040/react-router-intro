@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import vendingMachine from './vendingMachine.jpeg';
 import './SnackItems.css';
 
-
-
 const SnackItems = () => {
   return (
     <nav className="SnackItems">
