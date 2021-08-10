@@ -1,0 +1,5 @@
+/* Applies to all snack item anchor tags */
+a {
+    display: block;
+    margin-top: 30px;
+}

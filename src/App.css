@@ -1,4 +1,5 @@
 html, body, #root, .App, .VendingMachine, .SnackItems {
   text-align: center;
   height: 100%;
+  background-color: rgba(16, 159, 202, 0.144)
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import donut from './donut.jpeg';
+import './Donut.css';
 
 const Donut = () => {
   return (
