@@ -1,10 +1,15 @@
+# React Router Vending Machine
+
+- This app is my solution to Springboard exercise 41.1.7. The app acts as a mock vending machine, where users can click on one of three snack items, and then have that item be displayed to them. Once the item is displayed, the user can go back to the vending machine page by clicking the 'Go Back' button. 
+- Note that the purpose of this app was to get some practice with [React Router](https://reactrouter.com/). Thanks to React router, the page never needs to refresh when navigating the site. Also, the user is able to bookmark each page, and also go back and forth between pages, all without refreshing.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+First, run `npm install` to download all of the dependencies; then, in the project directory, you can run:
 
 ### `npm start`
 
