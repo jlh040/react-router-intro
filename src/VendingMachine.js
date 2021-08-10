@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
+import SnackItems from './SnackItems';
 import ChocolateBar from './ChocolateBar';
 import Skittles from './Skittles';
 import Donut from './Donut';
@@ -9,11 +10,7 @@ const VendingMachine = () => {
     <div className="VendingMachine">
       <BrowserRouter>
         <Route exact path="/">
-          <nav>
-            <NavLink exact to="/chocolatebar">Chocolate Bar</NavLink>
-            <NavLink exact to="/skittles">Skittles</NavLink>
-            <NavLink exact to="/donut">Donut</NavLink>
-          </nav>
+          <SnackItems />
         </Route>
         <Route exact path="/chocolatebar">
           <ChocolateBar />
