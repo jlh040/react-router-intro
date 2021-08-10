@@ -7,7 +7,7 @@ const ChocolateBar = () => {
     <div>
       <h2>Chocolate Time!!</h2>
       <img src={chocolateBar} alt="picture of chocolate bar"/>
-      <Link exact path="/">Go Back</Link>
+      <Link exact to="/">Go Back</Link>
     </div>
   )
 };

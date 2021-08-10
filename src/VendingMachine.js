@@ -6,24 +6,22 @@ const VendingMachine = () => {
   return (
     <div className="VendingMachine">
       <BrowserRouter>
-        <nav>
-          <Route exact path="/">
+        <Route exact path="/">
+          <nav>
             <NavLink exact to="/chocolatebar">Chocolate Bar</NavLink>
             <NavLink exact to="/skittles">Skittles</NavLink>
             <NavLink exact to="/snickers">Snickers</NavLink>
-          </Route>
-        </nav>
-        <main>
-          <Route exact path="/chocolatebar">
-            <ChocolateBar />
-          </Route>
-          {/* <Route exact path="/skittles">
-            <Skittles />
-          </Route>
-          <Route exact path="/snickers">
-            <Snickers />
-          </Route> */}
-        </main>
+          </nav>
+        </Route>
+        <Route exact path="/chocolatebar">
+          <ChocolateBar />
+        </Route>
+        {/* <Route exact path="/skittles">
+          <Skittles />
+        </Route>
+        <Route exact path="/snickers">
+          <Snickers />
+        </Route> */}
       </BrowserRouter>
     </div>
   )
