@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import ChocolateBar from './ChocolateBar';
 
 const VendingMachine = () => {
@@ -7,9 +7,11 @@ const VendingMachine = () => {
     <div className="VendingMachine">
       <BrowserRouter>
         <nav>
-          <Link to="/chocolatebar">Chocolate Bar</Link>
-          <Link to="/skittles">Skittles</Link>
-          <Link to="/snickers">Snickers</Link>
+          <Route exact path="/">
+            <NavLink exact to="/chocolatebar">Chocolate Bar</NavLink>
+            <NavLink exact to="/skittles">Skittles</NavLink>
+            <NavLink exact to="/snickers">Snickers</NavLink>
+          </Route>
         </nav>
         <main>
           <Route exact path="/chocolatebar">
