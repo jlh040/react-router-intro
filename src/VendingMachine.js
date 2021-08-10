@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import ChocolateBar from './ChocolateBar';
+import Skittles from './Skittles';
 
 const VendingMachine = () => {
   return (
@@ -16,10 +17,10 @@ const VendingMachine = () => {
         <Route exact path="/chocolatebar">
           <ChocolateBar />
         </Route>
-        {/* <Route exact path="/skittles">
+        <Route exact path="/skittles">
           <Skittles />
         </Route>
-        <Route exact path="/snickers">
+        {/* <Route exact path="/snickers">
           <Snickers />
         </Route> */}
       </BrowserRouter>
